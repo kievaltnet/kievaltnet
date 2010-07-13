@@ -73,6 +73,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\rss.png" />
+    <Content Include="Content\images\twitter.png" />
+    <Content Include="Content\stylesheets\print.css" />
+    <Content Include="Content\stylesheets\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Views\Home\IndexEn.aspx" />
     <Content Include="Views\Home\IndexRu.aspx" />
@@ -83,7 +87,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Site.css" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />

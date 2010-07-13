@@ -3,33 +3,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
-    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/stylesheets/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../../Content/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
+	<meta name="Geography" content="Kyiv, Ukraine">
+	<meta name="City" content="Kyiv">
+	<meta name="Country" content="Ukraine">	
 </head>
 
 <body>
-    <div class="page">
-
-        <div id="header">
-            <div id="title">
-                <h1>Kiev ALT.NET</h1>
-            </div>
-            
-            <div id="menucontainer">
-            
-                <ul id="menu">              
-                    <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
-                    <li><%= Html.ActionLink("About", "About", "Home")%></li>
-                </ul>
-            
-            </div>
-        </div>
-
-        <div id="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-
-            <div id="footer">
-            </div>
-        </div>
+	<div id="menu">            
+        <ul>              
+            <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
+        </ul>            
     </div>
+
+	<div id="header">
+        <h1>Kiev ALT.NET</h1>
+    </div>
+
+    
+    <div id="main">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        	
+    </div>
+
+	<div id="footer">       	
+		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+			<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br />
+			This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://chaliy.name" property="cc:attributionName" rel="cc:attributionURL">Mike Chaliy</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+    </div>
+		    
 </body>
 </html>

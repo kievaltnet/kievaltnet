@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	line-height: 1.5em;
+	background: none;
+}
+
+#header {
+	visibility: hidden;
+	display: none;	
+}
+
+#menu {
+	visibility: hidden;
+	display: none;	
+}
+
+#footer {
+	visibility: hidden;
+	display: none;	
+}

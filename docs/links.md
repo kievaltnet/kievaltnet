@@ -19,4 +19,8 @@ Note, Tumblr does not allows override RSS feed, so them customized. Theme file -
 Feed: http://feeds.feedburner.com/kievaltnet
 Username: support@kievalt.net
 
+## Calendar
+http://cid-a42322b3a55b106b.calendar.live.com/calendar/ALT.NET+Kiev/index.html
+webcal://cid-a42322b3a55b106b.calendar.live.com/calendar/ALT.NET+Kiev/calendar.ics
+
 Contact me (Mike Chaliy, mike@chaliy.name) if you have any questions.

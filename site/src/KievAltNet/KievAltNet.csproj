@@ -78,8 +78,6 @@
     <Content Include="Content\stylesheets\print.css" />
     <Content Include="Content\stylesheets\style.css" />
     <Content Include="Global.asax" />
-    <Content Include="Views\Home\IndexEn.aspx" />
-    <Content Include="Views\Home\IndexRu.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -87,7 +85,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Shared\Site.Master" />

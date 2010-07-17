@@ -10,14 +10,14 @@
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2></h2>
     <p>
-		Вітаємо вас на сайті Київської ALT.NET. На це час нас майже немає. Але ми над
-		 цим працюємо. Для того щоб не пропустити щось важливе рекомендуємо підпистатися 
+		Вітаємо вас на сайті Київської ALT.NET. Покищо нас майже немає. Але ми над
+		 цим працюємо. Для того щоб не пропустити щось важливе, рекомендуємо підпистатися 
 		 за допомогою <a href="http://feeds.feedburner.com/kievaltnet" rel="alternate"
 		 type="application/rss+xml" class="rss" >RSS</a> або 
 		 <a href="http://twitter.com/kievaltnet" rel="alternate" class="twitter" >Twitter</a>.
     </p>
 	<dl>		
-		<dt>Навіщо?</dt>
+		<dt>Навіщо все це?</dt>
 		<dd>Взагалі то для обміну ДОСВІДом. Переважно досвідом в .NET.</dd>
 
 		<dt>Які теми?</dt>

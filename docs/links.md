@@ -12,8 +12,11 @@ E-mail: support@kievalt.net
 Address: http://blog.kievalt.net/ 
 Hosted: http://www.tumblr.com/
 Username: support@kievalt.net
-
 Note, Tumblr does not allows override RSS feed, so them customized. Theme file - theme.html
+
+## Blog comments
+Hosted: http://disqus.com
+Username: kievaltnet
 
 ## Feedburner
 Feed: http://feeds.feedburner.com/kievaltnet

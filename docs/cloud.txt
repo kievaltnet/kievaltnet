@@ -1,0 +1,49 @@
+.NET
+C#
+F#
+CLR
+
+ASP.NET MVC
+ASP
+AJAX
+COMET
+WCF
+REST
+OData
+SOAP
+HTTP
+HTML
+HTML 5
+JavaScript
+MVC
+
+WPF
+Silverlight
+MVVM
+MVP
+WinForms
+Rich Client
+
+Architecture
+DDD
+CQRS
+Event Sourcing
+Patterns
+
+NAnt
+FAKE
+NUnit
+XUnit
+MbUnit
+
+ReSharper
+
+MSSQL
+NOSQL
+MongoDb
+RavenDb
+
+GWT
+Java
+Phyton
+Ruby

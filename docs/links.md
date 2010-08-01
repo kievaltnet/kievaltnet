@@ -26,4 +26,16 @@ Username: support@kievalt.net
 http://cid-a42322b3a55b106b.calendar.live.com/calendar/ALT.NET+Kiev/index.html
 webcal://cid-a42322b3a55b106b.calendar.live.com/calendar/ALT.NET+Kiev/calendar.ics
 
+## Slides
+http://www.slideshare.net/kievaltnet
+http://www.slideshare.net
+Username: kievaltnet
+
+## Google Acc
+Profile: http://www.google.com/profiles/kievaltnet
+
+## Photos
+Hosted: Picasa
+Url: http://picasaweb.google.com/kievaltnet
+
 Contact me (Mike Chaliy, mike@chaliy.name) if you have any questions.

@@ -38,4 +38,8 @@ Profile: http://www.google.com/profiles/kievaltnet
 Hosted: Picasa
 Url: http://picasaweb.google.com/kievaltnet
 
+## Docs
+Hosted: Google Docs
+Username: support@kievalt.net
+
 Contact me (Mike Chaliy, mike@chaliy.name) if you have any questions.

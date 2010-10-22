@@ -36,7 +36,7 @@ blockquote{border-left:2px solid #888;color:#888;margin:0 1em 1.5em;padding:0 1e
 .chat ul.convo li .person { font-weight: bold; }
 .chat ul.convo li.even .person{color:#76a34c;}
 .audio .playcount { float: right; }
-
+.text img { margin: 10px; }
 /* POST FOOTERS */
 .post-footer{list-style:none;font-size:0.857em;margin:3em 0;padding:0;text-align:right;}
 .post-footer li{display:inline;margin-left:1em;padding:0}

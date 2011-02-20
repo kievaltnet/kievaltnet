@@ -42,4 +42,8 @@ Url: http://picasaweb.google.com/kievaltnet
 Hosted: Google Docs
 Username: support@kievalt.net
 
+## Hosting
+Hosted: https://appharbor.com
+Url: https://appharbor.com/application/kievaltnet
+
 Contact me (Mike Chaliy, mike@chaliy.name) if you have any questions.

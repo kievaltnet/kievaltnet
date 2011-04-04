@@ -102,7 +102,7 @@
     <Content Include="files\20101017_mvvm_and_ddd\mvvm_in_action\mvvm.zip" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="files\20110401_abdullin_cqrs\CQRS presentation.pdf" />
+    <None Include="files\20110401_abdullin_cqrs\CQRS.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -4,3 +4,4 @@
 4. Анонс в майл листі
 5. Анонс в календарі
 6. Анонс на developers.org.ua
+7. Анонс в twitter (@kievaltnet)

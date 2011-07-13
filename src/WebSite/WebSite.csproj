@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BingSiteAuth.xml" />
+    <Content Include="blank.html" />
     <Content Include="favicon.ico" />
     <Content Include="files\20101029_nupack\event-logo.png" />
     <Content Include="files\20110225_websharper\event-logo.png" />
@@ -99,7 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="files\20101017_mvvm_and_ddd\caliburn\caliburn.zip" />
-    <Content Include="files\20101017_mvvm_and_ddd\mvvm_in_action\mvvm.zip" />  
+    <Content Include="files\20101017_mvvm_and_ddd\mvvm_in_action\mvvm.zip" />
     <Content Include="files\20110401_abdullin_cqrs\CQRS.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

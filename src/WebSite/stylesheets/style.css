@@ -43,7 +43,7 @@ blockquote{border-left:2px solid #888;color:#888;margin:0 1em 1.5em;padding:0 1e
 
 /* REBLOG */
 .post-footer li.reblog{color:#888;display:block;font-style:italic;margin-bottom:0.25em}
-.post-footer li.date h3{coloar:#888;display:inline;font-family:Helvetica,Arial,sans-serif;font-size:1em}
+.post-footer li.date h3{color:#888;display:inline;font-family:Helvetica,Arial,sans-serif;font-size:1em}
 
 /* TAGS */
 .post-footer li.tags ul, .post-footer li.tags ul li{display:inline; padding: 0;}

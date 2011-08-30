@@ -112,6 +112,7 @@
     <Content Include="files\20101017_mvvm_and_ddd\caliburn\caliburn.zip" />
     <Content Include="files\20101017_mvvm_and_ddd\mvvm_in_action\mvvm.zip" />
     <Content Include="files\20110401_abdullin_cqrs\CQRS.pdf" />
+	<Content Include="files\CiklumLogoNew.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

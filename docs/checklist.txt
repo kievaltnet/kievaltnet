@@ -5,3 +5,5 @@
 5. Анонс в календарі
 6. Анонс на developers.org.ua
 7. Анонс в twitter (@kievaltnet)
+8. Анонс на хабрі
+9. Анонс на msugvn

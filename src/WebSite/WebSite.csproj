@@ -102,6 +102,8 @@
     <Content Include="images\services\twitter.png" />
     <Content Include="kievaltnet.png" />
     <Content Include="Release Notes - Microsoft.Web.Helpers.txt" />
+    <Content Include="stylesheets\img\circles.png" />
+    <Content Include="stylesheets\img\circles.txt" />
     <Content Include="stylesheets\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

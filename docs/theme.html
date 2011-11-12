@@ -9,8 +9,8 @@
 
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
   <meta name="description" content="{MetaDescription}"/>
 
   <!-- DEFAULT COLORS -->
@@ -29,8 +29,9 @@
   <meta name="if:Show notes" content="1">
 
   <link rel="shortcut icon" href="{Favicon}"/>
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/kievaltnet"/>
+  <link rel="alternate" type="application/rss+xml" name="RSS" href="http://feeds.feedburner.com/kievaltnet"/>
   
+  <link rel="stylesheet" href="//twitter.github.com/bootstrap/1.3.0/bootstrap.min.css" />
   <link href="http://kievalt.net/stylesheets/style.css" media="all" rel="stylesheet" type="text/css" /> 
 <script type="text/javascript">
 
@@ -50,8 +51,8 @@
 </head>
 
 <body>
-  <div id="container">
-    <div id="header">
+  <div id="container" class="container">
+    <div id="header" class="row">
       <ul id="navigation">
         {block:HasPages}
           {block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}
@@ -64,7 +65,7 @@
       <h1><a href="/">{Title}</a></h1>
     </div> <!-- end #header -->
   
-    <div id="posts">
+    <div id="posts" class="row">
     {block:SearchPage}
     <div id="searchresultcount">
       <p>Your search for <span class="query">{SearchQuery}</span> yielded {SearchResultCount} result(s).</p>
@@ -119,11 +120,11 @@
         {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
       {/block:Photo}
 
-			{block:Photoset}
-			<div class="photoset-post">
-				{Photoset-500}
-				{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-			{/block:Photoset}
+      {block:Photoset}
+      <div class="photoset-post">
+        {Photoset-500}
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+      {/block:Photoset}
       
       
       {block:Chat}
@@ -145,7 +146,7 @@
           {block:Date}<li class="date"><h3>{Month} {DayOfMonthWithZero}, {Year}, {12Hour}:{Minutes}{AmPm}{/block:Date}</h3>{block:IfShowNotes}{block:NoteCount}<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{NoteCountWithLabel}</h3>{/block:NoteCount}{/block:IfShowNotes}</li>
           {block:Date}
           {block:IfNotDisqusShortname}<li><a href="{Permalink}" class="permalink">Permalink</a></li>{/block:IfNotDisqusShortname}
-		  {block:IfDisqusShortname}<li><a href="{Permalink}#disqus_thread" class="permalink">Comments</a></li>{block:IfDisqusShortname}
+      {block:IfDisqusShortname}<li><a href="{Permalink}#disqus_thread" class="permalink">Comments</a></li>{block:IfDisqusShortname}
           {/block:Date}
         </ul>
       </div> <!-- end single post -->
@@ -159,7 +160,7 @@
       {block:PostNotes}
       {/block:IfShowNotes}
       
-	  {block:IfDisqusShortname}
+    {block:IfDisqusShortname}
       <div id="disqus_thread"></div>
       <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
       <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">View the discussion thread.</a></noscript>
@@ -227,7 +228,7 @@
     </div> <!-- end footer contain -->
   </div> <!-- end footer -->
 
-	{block:IfDisqusShortname}
+  {block:IfDisqusShortname}
   <script type="text/javascript">
   //<![CDATA[
   (function() {

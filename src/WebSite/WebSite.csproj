@@ -104,6 +104,8 @@
     <Content Include="Release Notes - Microsoft.Web.Helpers.txt" />
     <Content Include="stylesheets\img\circles.png" />
     <Content Include="stylesheets\img\circles.txt" />
+    <Content Include="stylesheets\img\fancy_deboss.png" />
+    <Content Include="stylesheets\img\fancy_deboss.txt" />
     <Content Include="stylesheets\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

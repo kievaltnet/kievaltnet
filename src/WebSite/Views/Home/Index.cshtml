@@ -22,6 +22,7 @@
     <meta property="og:email" content="support@kievalt.net"/>        
     <link rel="shortcut icon" href="favicon.ico"/>
 	<link rel="alternate" type="application/rss+xml" name="RSS" href="http://feeds.feedburner.com/kievaltnet"/>
+    <link rel="stylesheet" href="//twitter.github.com/bootstrap/1.3.0/bootstrap.min.css" />
 	<link href="/stylesheets/style.css" media="all" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 
@@ -49,9 +50,9 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-	<div id="container">
+	<div id="container" class="container">
 	
-	<div id="header">
+	<div id="header" class="row">
       <ul id="navigation">
         <li><a href="http://blog.kievalt.net">Blog</a></li>
         <li><a href="http://feeds.feedburner.com/kievaltnet">RSS</a></li>
@@ -59,105 +60,111 @@
       
       <h1>Kiev ALT.NET</h1>
     </div>
-	
-    <div id="posts">            
-	<p> 
-	  Вітаємо вас на сайті київської ALT.NET.
-    </p>
-	 @*<p class="importanant-info">
-        Запрошуємо на <a href="http://blog.kievalt.net/post/5864424148/dvcs-event">наступну зустріч (10 червня)</a>, присвячену distributed version control systems (DVCS), а саме GIT та Mercurial.
-	 </p>*@
-     @*
-    <p class="importanant-info">
-      <a href="http://blog.kievalt.net/post/5861638044/report-ci-event">Звіт</a> про <a href="http://blog.kievalt.net/post/5390606925/ci-event">битву CI</a>.
-	 </p>     
-     *@
-	 <p> Для того, щоб не пропустити щось важливе, рекомендуємо підписатися 
-	   за допомогою <a href="http://feeds.feedburner.com/kievaltnet" rel="alternate" type="application/rss+xml" class="rss" >RSS</a>, 
-	   <a href="http://twitter.com/kievaltnet" rel="alternate" class="twitter" >Twitter</a>,
-       <a href="http://cid-a42322b3a55b106b.calendar.live.com/calendar/Kiev+ALT.NET/calendar.ics" rel="alternate" class="ics" >ICS</a>,
-	   <a href="http://www.facebook.com/group.php?gid=111738308881317" rel="alternate" class="facebook" >Facebook групи</a>
-        або поштою в <a href="http://groups.google.com/group/kievaltnet" rel="alternate" class="google" >Гугл групі</a>.	   
-	</p>
-	 <dl>  
-	  <dt>Навіщо все це?</dt> 
-	  <dd>Взагалі-то для обміну ДОСВІДом. Переважно досвідом в .NET.</dd> 
-	 
-	  <dt>Які теми?</dt> 
-	  <dd>Ми не обтяжуємо себе колом тем, про які ми можемо спілкуватися, а про які &mdash; ні.
-	   Ось список того, що одразу спало на думку: архітектурні питання, як 
-	   наприклад, DDD, <a href="http://blog.kievalt.net/post/823574167/ddd-and-cqrs-event">CQRS</a> чи MVC; мови розробки &mdash; C#, <a href="http://blog.kievalt.net/post/2143560903/fsharp-event" >F#</a>, IronPhyton; або 
-	   фреймворки, наприклад, NHibernate, ASP.NET MVC тощо; юніт-тестування; спеки; білд-скрипти; <a href="http://blog.kievalt.net/post/5390606925/ci-event">CI</a>;
-	   тулзи для підвищення продуктивності, наприклад, ReSharper &mdash; коротше будь-що, що так чи інакше 
-	   стосується .NET та розробки.</dd> 
-	 	  
-	  <dt>Що таке ALT.NET?</dt> 
-	  <dd><q>We are a self-organizing, ad-hoc community of developers bound by a desire to
-	   improve ourselves, challenge assumptions, and help each other pursue excellence 
-	   in the practice of software development.</q> 
-	   <br />* Це я стягнув з <a href="http://altdotnet.org/">http://altdotnet.org/</a>. Наразі в 
-	   тенетах можна знайти значно більше інфи.</dd>
-	 </dl>
 
-    <h2>Архів попередніх зустрічей</h2>	 
-    <dl>
-    	<dt>JavaScript, KnockoutJS, GWT, ELMAH.MVC</dt>
-		<dd>
-			<a href="http://blog.kievalt.net/post/11867227723/javascript-event">Подробиці зустрічі</a>.
-		</dd>
-    	<dt>Async, Rx та LINQ</dt>
-		<dd>
-			<a href="http://blog.kievalt.net/post/11324222199/async-event">Подробиці зустрічі</a>.
-		</dd>
-    	<dt>NoSQL(MongoDb, RavenDb, CouchDb)</dt>
-    	<dd>
-			<a href="http://blog.kievalt.net/post/10212289741/nosql-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/11314053744/nosql-doc-report">звіт та матеріали зустрічі</a>.
-		</dd>		
-    	<dt>ASP.NET MVC та WCF Web API</dt>
-		<dd>
-			<a href="http://blog.kievalt.net/post/9624140215/mvc-rest-wcf-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/9624140215/mvc-rest-wcf-event">звіт та матеріали зустрічі</a>.
-		</dd>
-		<dt>Orchard</dt>
-		<dd>
-			<a href="http://blog.kievalt.net/post/8332623892/orchard-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/9597068246/report-orchard" >звіт та матеріали зустрічі</a>.
-		</dd>
-        <dt>Distributed version control systems (DVCS)</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/5864424148/dvcs-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/7568442501/report-dvcs-event" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-        <dt>Битва CI</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/5390606925/ci-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/5861638044/report-ci-event" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-        <dt>Зустріч присвячена CQRS</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/3918985453/abdullin-cqrs-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/4519207757/report-abdullin-cqrs" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-		<dt>Зустріч присвячена WebSharper</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/3311287064/websharper-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/3583105618/report-websharper-event" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-		<dt>Зустріч присвячена DDD</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/2958517151/ddd-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/3249872296/report-ddd-event" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-		<dt>Зустріч присвячена F#</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/2143560903/fsharp-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/2512395811/report-fsharp-event" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-        <dt>Зустріч присвячена керуванню пакетами (NuGet, OpenWrap, Maven)</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/1373357793/nupack-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/1498058546/report-nuget-event" >звіт та матеріали зустрічі</a>. 	 
-        </dd>
-        <dt>Зустріч присвячена паттерну Model-View-ViewModel (MVVM)</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/1047917205/ddd-and-mvvm-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/1156547533/report-ddd-and-mvvm-event" >звіт та матеріали зустрічі</a>. 	 
-       </dd>
-	    <dt>Зустріч присвячена Command-Query Responsibility Segregation (CQRS)</dt> 
-        <dd>
-	        <a href="http://blog.kievalt.net/post/823574167/ddd-and-cqrs-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/884617100/report-ddd-and-cqrs-event" >звіт та матеріали зустрічі</a>. 	 
-       </dd>
-     </dl>
+    <div class="row">
+        <div class="span8">
+            <p> 
+	          Вітаємо вас на сайті київської ALT.NET.
+            </p>
+	         @*<p class="importanant-info">
+                Запрошуємо на <a href="http://blog.kievalt.net/post/5864424148/dvcs-event">наступну зустріч (10 червня)</a>, присвячену distributed version control systems (DVCS), а саме GIT та Mercurial.
+	         </p>*@
+             @*
+            <p class="importanant-info">
+              <a href="http://blog.kievalt.net/post/5861638044/report-ci-event">Звіт</a> про <a href="http://blog.kievalt.net/post/5390606925/ci-event">битву CI</a>.
+	         </p>     
+             *@
+	         <p> Для того, щоб не пропустити щось важливе, рекомендуємо підписатися 
+	           за допомогою <a href="http://feeds.feedburner.com/kievaltnet" rel="alternate" type="application/rss+xml" class="rss" >RSS</a>, 
+	           <a href="http://twitter.com/kievaltnet" rel="alternate" class="twitter" >Twitter</a>,
+               <a href="http://cid-a42322b3a55b106b.calendar.live.com/calendar/Kiev+ALT.NET/calendar.ics" rel="alternate" class="ics" >ICS</a>,
+	           <a href="http://www.facebook.com/group.php?gid=111738308881317" rel="alternate" class="facebook" >Facebook групи</a>
+                або поштою в <a href="http://groups.google.com/group/kievaltnet" rel="alternate" class="google" >Гугл групі</a>.	   
+	        </p>
+
+            <dl>  
+	          <dt>Навіщо все це?</dt> 
+	          <dd>Взагалі-то для обміну ДОСВІДом. Переважно досвідом в .NET.</dd> 
+	 
+	          <dt>Які теми?</dt> 
+	          <dd>Ми не обтяжуємо себе колом тем, про які ми можемо спілкуватися, а про які &mdash; ні.
+	           Ось список того, що одразу спало на думку: архітектурні питання, як 
+	           наприклад, DDD, <a href="http://blog.kievalt.net/post/823574167/ddd-and-cqrs-event">CQRS</a> чи MVC; мови розробки &mdash; C#, <a href="http://blog.kievalt.net/post/2143560903/fsharp-event" >F#</a>, IronPhyton; або 
+	           фреймворки, наприклад, NHibernate, ASP.NET MVC тощо; юніт-тестування; спеки; білд-скрипти; <a href="http://blog.kievalt.net/post/5390606925/ci-event">CI</a>;
+	           тулзи для підвищення продуктивності, наприклад, ReSharper &mdash; коротше будь-що, що так чи інакше 
+	           стосується .NET та розробки.</dd> 
+	 	  
+	          <dt>Що таке ALT.NET?</dt> 
+	          <dd><q>We are a self-organizing, ad-hoc community of developers bound by a desire to
+	           improve ourselves, challenge assumptions, and help each other pursue excellence 
+	           in the practice of software development.</q> 
+	           <br />* Це я стягнув з <a href="http://altdotnet.org/">http://altdotnet.org/</a>. Наразі в 
+	           тенетах можна знайти значно більше інфи.</dd>
+	         </dl>
+        </div>
+        <div class="span8">
+
+            <h2>Архів попередніх зустрічей</h2>	 
+            <dl>
+    	        <dt>JavaScript, KnockoutJS, GWT, ELMAH.MVC</dt>
+		        <dd>
+			        <a href="http://blog.kievalt.net/post/11867227723/javascript-event">Подробиці зустрічі</a>.
+		        </dd>
+    	        <dt>Async, Rx та LINQ</dt>
+		        <dd>
+			        <a href="http://blog.kievalt.net/post/11324222199/async-event">Подробиці зустрічі</a>.
+		        </dd>
+    	        <dt>NoSQL(MongoDb, RavenDb, CouchDb)</dt>
+    	        <dd>
+			        <a href="http://blog.kievalt.net/post/10212289741/nosql-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/11314053744/nosql-doc-report">звіт та матеріали зустрічі</a>.
+		        </dd>		
+    	        <dt>ASP.NET MVC та WCF Web API</dt>
+		        <dd>
+			        <a href="http://blog.kievalt.net/post/9624140215/mvc-rest-wcf-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/9624140215/mvc-rest-wcf-event">звіт та матеріали зустрічі</a>.
+		        </dd>
+		        <dt>Orchard</dt>
+		        <dd>
+			        <a href="http://blog.kievalt.net/post/8332623892/orchard-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/9597068246/report-orchard" >звіт та матеріали зустрічі</a>.
+		        </dd>
+                <dt>Distributed version control systems (DVCS)</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/5864424148/dvcs-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/7568442501/report-dvcs-event" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+                <dt>Битва CI</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/5390606925/ci-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/5861638044/report-ci-event" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+                <dt>Зустріч присвячена CQRS</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/3918985453/abdullin-cqrs-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/4519207757/report-abdullin-cqrs" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+		        <dt>Зустріч присвячена WebSharper</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/3311287064/websharper-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/3583105618/report-websharper-event" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+		        <dt>Зустріч присвячена DDD</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/2958517151/ddd-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/3249872296/report-ddd-event" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+		        <dt>Зустріч присвячена F#</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/2143560903/fsharp-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/2512395811/report-fsharp-event" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+                <dt>Зустріч присвячена керуванню пакетами (NuGet, OpenWrap, Maven)</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/1373357793/nupack-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/1498058546/report-nuget-event" >звіт та матеріали зустрічі</a>. 	 
+                </dd>
+                <dt>Зустріч присвячена паттерну Model-View-ViewModel (MVVM)</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/1047917205/ddd-and-mvvm-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/1156547533/report-ddd-and-mvvm-event" >звіт та матеріали зустрічі</a>. 	 
+               </dd>
+	            <dt>Зустріч присвячена Command-Query Responsibility Segregation (CQRS)</dt> 
+                <dd>
+	                <a href="http://blog.kievalt.net/post/823574167/ddd-and-cqrs-event">Подробиці зустрічі</a> і <a href="http://blog.kievalt.net/post/884617100/report-ddd-and-cqrs-event" >звіт та матеріали зустрічі</a>. 	 
+               </dd>
+             </dl>
+
+        </div>
     </div>
     </div>	
  

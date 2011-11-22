@@ -157,11 +157,11 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App\Speakers\Data\chaliy.yaml" />
+    <Content Include="App\Speakers\Data\chaliy.yaml" />
     <Content Include="Views\Speakers\Web.config" />
-    <None Include="App\Speakers\Data\beletsky.yaml" />
-    <None Include="App\Speakers\Data\kalinets.yaml" />
-    <None Include="App\Speakers\Data\tamaschuk.yaml" />
+    <Content Include="App\Speakers\Data\beletsky.yaml" />
+    <Content Include="App\Speakers\Data\kalinets.yaml" />
+    <Content Include="App\Speakers\Data\tamaschuk.yaml" />
     <Content Include="Views\Speakers\Details.cshtml" />
   </ItemGroup>
   <PropertyGroup>

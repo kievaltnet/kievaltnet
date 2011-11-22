@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Yaml.Serialization;
+using WebSite.Extensions;
 
 namespace WebSite.App.Speakers
 {
@@ -12,14 +13,19 @@ namespace WebSite.App.Speakers
 
         public SpeakerProvider(DirectoryInfo dataFolder)
         {
-            var serizlier = new YamlSerializer();
+            var serializer = new YamlSerializer();
             var profiles = dataFolder.GetFiles("*.yaml");
             foreach (var profileFile in profiles)
             {                
                 using (var reader = profileFile.OpenRead())
                 {
-                    var speaker = (Speaker)serizlier.Deserialize(reader, typeof(Speaker))[0];
-                    speaker.Id = profileFile.Name.Replace(profileFile.Extension, ""); // <- Looks ugly
+                    var speaker = (Speaker)serializer.Deserialize(reader, typeof(Speaker))[0];
+                    speaker.Id = profileFile.Name.SkipExtension(profileFile.Extension); 
+                    if (string.IsNullOrEmpty(speaker.Avatar)) 
+                    {
+                        speaker.Avatar = speaker.Email.ToGravatarLink();
+                    }
+
                     _speakers.Add(speaker);
                 }
             }

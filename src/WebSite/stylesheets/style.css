@@ -82,42 +82,42 @@ ol.notes img.avatar { display: none; }
 
 /* Custom stuff */
 a.twitter{
-	padding-left: 22px;
+	padding-left: 16px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-image: url('../images/services/twitter.png');
 	background-repeat: no-repeat;
 }
 a.skype{
-	padding-left: 22px;
+	padding-left: 16px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-image: url('../images/services/skype.png');
 	background-repeat: no-repeat;
 }
 a.rss{
-	padding-left: 22px;
+	padding-left: 16px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-image: url('../images/services/rss.png');
 	background-repeat: no-repeat;
 }
 a.ics{
-	padding-left: 22px;
+	padding-left: 16px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-image: url('../images/services/ics.png');
 	background-repeat: no-repeat;
 }
 a.linkedin{
-	padding-left: 22px;
+	padding-left: 16px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-image: url('../images/services/linkedin.png');
 	background-repeat: no-repeat;
 }
 a.facebook{
-	padding-left: 22px;
+	padding-left: 16px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-image: url('../images/services/facebook.png');

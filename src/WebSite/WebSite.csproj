@@ -123,9 +123,6 @@
     <Folder Include="files\20101224_FSharp\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="files\20101017_mvvm_and_ddd\caliburn\caliburn.zip" />
     <Content Include="files\20101017_mvvm_and_ddd\mvvm_in_action\mvvm.zip" />
     <Content Include="files\20110401_abdullin_cqrs\CQRS.pdf" />
@@ -142,6 +139,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Calendar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

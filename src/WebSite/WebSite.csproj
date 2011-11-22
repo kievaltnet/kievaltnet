@@ -100,6 +100,7 @@
     <Content Include="images\services\rss.png" />
     <Content Include="images\services\skype.png" />
     <Content Include="images\services\twitter.png" />
+    <Content Include="images\services\facebook.png" />
     <Content Include="kievaltnet.png" />
     <Content Include="Release Notes - Microsoft.Web.Helpers.txt" />
     <Content Include="stylesheets\img\circles.png" />

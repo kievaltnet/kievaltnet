@@ -11,4 +11,11 @@
         public string MainProfileURL { get; set; }
         public string Avatar { get; set; }
     }
+
+    public class Speach 
+    {
+        public string Title { get; set; }
+        public string AnonceLink { get; set; }
+        public string MaterialsLink { get; set; }
+    }
 }

@@ -130,7 +130,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="files\20101224_FSharp\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="files\20101017_mvvm_and_ddd\caliburn\caliburn.zip" />

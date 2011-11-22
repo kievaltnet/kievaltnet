@@ -9,16 +9,16 @@
 <div class="row">		
 @foreach(var speaker in speakers){
 	<div class="span-one-third">	
-		<div class="person-card">	
-		@if (@speaker.Avatar.IsDefined()){
-			<img style="float: left; margin:5px; max-width:60px" src="@speaker.Avatar" title="@speaker.FullName" />
-		}
-		<h2><a href="/speakers/@speaker.Id/">@speaker.FullName</a></h2>	
-		<p>@speaker.ShortAbout</p>
-		<ul class="breadcrumb">
-			<li><a href="@speaker.MainProfileURL">Home</a> <span class="divider">|</span></li>
-			<li><a href="mailto:@speaker.Email">E-mail</a></li>
-		</ul>
+		<div class="person-card">
+            @if (@speaker.CanRenderAvatar()){
+		        <img style="float: left; margin:5px; max-width:60px" src="@speaker.GetAvatarLink(60)" alt="@speaker.FullName" />
+            }
+		    <h2><a href="/speakers/@speaker.Id/">@speaker.FullName</a></h2>	
+		    <p>@speaker.ShortAbout</p>
+		    <ul class="breadcrumb">
+			    <li><a href="@speaker.MainProfileURL">Home</a> <span class="divider">|</span></li>
+			    <li><a href="mailto:@speaker.Email">E-mail</a></li>
+		    </ul>
 		</div>
 	</div>
 }

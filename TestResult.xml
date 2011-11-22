@@ -1,38 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\mike\Projects\kievaltnet\KievAltNet.nunit" total="8" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-11-22" time="23:54:46">
+<test-results name="C:\Users\mike\Projects\kievaltnet\KievAltNet.nunit" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-11-23" time="00:52:18">
   <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.6101" os-version="Microsoft Windows NT 6.2.8102.0" platform="Win32NT" cwd="C:\Users\mike\Projects\kievaltnet\packages\NUnit.2.5.10.11092\tools" machine-name="CHALIY-M" user="mike" user-domain="CHALIY-M" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Project" name="C:\Users\mike\Projects\kievaltnet\KievAltNet.nunit" executed="True" result="Success" success="True" time="0.936" asserts="0">
+  <test-suite type="Project" name="C:\Users\mike\Projects\kievaltnet\KievAltNet.nunit" executed="True" result="Success" success="True" time="0.172" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\Users\mike\Projects\kievaltnet\src\Tests\bin\Debug\Tests.dll" executed="True" result="Success" success="True" time="0.920" asserts="0">
+      <test-suite type="Assembly" name="C:\Users\mike\Projects\kievaltnet\src\Tests\bin\Debug\Tests.dll" executed="True" result="Success" success="True" time="0.156" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.920" asserts="0">
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.156" asserts="0">
             <results>
-              <test-suite type="Namespace" name="App" executed="True" result="Success" success="True" time="0.905" asserts="0">
+              <test-suite type="Namespace" name="Views" executed="True" result="Success" success="True" time="0.156" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="Speackers" executed="True" result="Success" success="True" time="0.905" asserts="0">
+                  <test-suite type="Namespace" name="Speakers" executed="True" result="Success" success="True" time="0.156" asserts="0">
                     <results>
-                      <test-suite type="TestFixture" name="When_retrieve_speaker_data" executed="True" result="Success" success="True" time="0.889" asserts="0">
+                      <test-suite type="TestFixture" name="When_getting_speakers_avatar" executed="True" result="Success" success="True" time="0.125" asserts="0">
                         <results>
-                          <test-case name="Tests.App.Speackers.When_retrieve_speaker_data.Should_deserialize_bio" executed="True" result="Success" success="True" time="0.047" asserts="0" />
-                          <test-case name="Tests.App.Speackers.When_retrieve_speaker_data.Should_deserialize_details" executed="True" result="Success" success="True" time="0.016" asserts="0" />
-                          <test-case name="Tests.App.Speackers.When_retrieve_speaker_data.Should_deserialize_id" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                          <test-case name="Tests.App.Speackers.When_retrieve_speaker_data.Should_deserialize_something" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                          <test-case name="Tests.App.Speackers.When_retrieve_speaker_data.Should_deserialize_speaches" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Tests.Views.Speakers.When_getting_speakers_avatar.Should_report_that_can_render_avatar" executed="True" result="Success" success="True" time="0.062" asserts="0" />
+                          <test-case name="Tests.Views.Speakers.When_getting_speakers_avatar.Should_return_correct_avatar_url" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                         </results>
                       </test-suite>
-                    </results>
-                  </test-suite>
-                </results>
-              </test-suite>
-              <test-suite type="Namespace" name="Views" executed="True" result="Success" success="True" time="0.016" asserts="0">
-                <results>
-                  <test-suite type="TestFixture" name="When_getting_each_three_items_from_collection" executed="True" result="Success" success="True" time="0.016" asserts="0">
-                    <results>
-                      <test-case name="Tests.Views.When_getting_each_three_items_from_collection.Should_return_the_rest_one_item_in_the_second_chank" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="Tests.Views.When_getting_each_three_items_from_collection.Should_return_tree_items_in_the_first_chank" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="Tests.Views.When_getting_each_three_items_from_collection.Should_return_two_chanks" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-suite type="TestFixture" name="When_getting_speakers_gravatar" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="Tests.Views.Speakers.When_getting_speakers_gravatar.Should_report_that_can_render_avatar" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Tests.Views.Speakers.When_getting_speakers_gravatar.Should_return_correct_gravatar_url" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
                     </results>
                   </test-suite>
                 </results>

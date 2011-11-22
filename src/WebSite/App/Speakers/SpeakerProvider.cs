@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Yaml.Serialization;
-using WebSite.Extensions;
 
 namespace WebSite.App.Speakers
 {
@@ -20,12 +19,7 @@ namespace WebSite.App.Speakers
                 using (var reader = profileFile.OpenRead())
                 {
                     var speaker = (Speaker)serializer.Deserialize(reader, typeof(Speaker))[0];
-                    speaker.Id = profileFile.Name.SkipExtension(profileFile.Extension); 
-                    if (string.IsNullOrEmpty(speaker.Avatar)) 
-                    {
-                        speaker.Avatar = speaker.Email.ToGravatarLink();
-                    }
-
+                    speaker.Id = Path.GetFileNameWithoutExtension(profileFile.Name);
                     _speakers.Add(speaker);
                 }
             }

@@ -12,7 +12,9 @@
 
 <div class="row" style="min-height: 150px">			
 	<blockquote>
-		<img style="float: right; margin:10px; max-width:150px" src="@Model.Speaker.Avatar" title="@Model.Speaker.FullName" />
+        @if (@Model.Speaker.CanRenderAvatar()){
+		    <img style="float: right; margin:10px; max-width:150px" src="@Model.Speaker.GetAvatarLink(150)" alt="@Model.Speaker.FullName" />
+        }
 		@Html.Raw(@Model.Speaker.Bio.RenderMarkdown())
 	</blockquote>	
 </div>

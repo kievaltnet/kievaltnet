@@ -86,11 +86,12 @@
     <Compile Include="Controllers\Speakers\SpeakerDetails.cs" />
     <Compile Include="Controllers\Speakers\SpeakersController.cs" />
     <Compile Include="Controllers\Speakers\SpeakersIndex.cs" />
-    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\GravatarExtensions.cs" />
+    <Compile Include="Views\Speakers\SpeakerExtensions.cs" />
     <Compile Include="Views\StringExtensions.cs" />
     <Compile Include="Views\EnumerationExtensions.cs" />
     <Compile Include="Views\MarkdownExtensions.cs" />

@@ -1,0 +1,23 @@
+﻿@model SpeakerDetails
+@{
+    ViewBag.Title = Model.Speaker.FullName;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<a href="/speakers/" title="Повернутися у список усіх доповідачів">Усі доповідачі</a>
+<h2><a href="/speakers/@Model.Speaker.Id/">@Model.Speaker.FullName</a></h2>
+<ul class="breadcrumb">
+	<li><em>@Model.Speaker.ShortAbout</em></li>
+</ul>
+
+<div class="row" style="min-height: 150px">			
+	<blockquote>
+		<img style="float: right; margin:10px; max-width:150px" src="@Model.Speaker.Avatar" title="@Model.Speaker.FullName" />
+		@Html.Raw(@Model.Speaker.Bio.RenderMarkdown())
+	</blockquote>	
+</div>
+<ul class="breadcrumb">
+	<li><a href="@Model.Speaker.MainProfileURL">Home</a> <span class="divider">|</span></li>
+	<li><a href="mailto:@Model.Speaker.Email">E-mail</a></li>
+</ul>
+<ul>

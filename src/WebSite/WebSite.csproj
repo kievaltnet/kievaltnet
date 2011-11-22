@@ -42,6 +42,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MarkdownSharp">
+      <HintPath>..\..\packages\MarkdownSharp.1.13.0.0\lib\35\MarkdownSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Helpers">
       <HintPath>..\..\packages\microsoft-web-helpers.1.15\lib\Microsoft.Web.Helpers.dll</HintPath>
     </Reference>
@@ -60,7 +63,6 @@
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -70,6 +72,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="YamlSerializer">
+      <HintPath>..\..\packages\YamlSerializer.1.0\lib\Net35\YamlSerializer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.cs">
@@ -77,12 +82,17 @@
     </Compile>
     <Compile Include="App\Speakers\Speaker.cs" />
     <Compile Include="App\Speakers\SpeakerProvider.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\SpeakersController.cs" />
+    <Compile Include="Controllers\Home\HomeController.cs" />
+    <Compile Include="Controllers\Speakers\SpeakerDetails.cs" />
+    <Compile Include="Controllers\Speakers\SpeakersController.cs" />
+    <Compile Include="Controllers\Speakers\SpeakersIndex.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\StringExtensions.cs" />
+    <Compile Include="Views\EnumerationExtensions.cs" />
+    <Compile Include="Views\MarkdownExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BingSiteAuth.xml" />
@@ -102,7 +112,6 @@
     <Content Include="images\services\twitter.png" />
     <Content Include="images\services\facebook.png" />
     <Content Include="kievaltnet.png" />
-    <Content Include="Release Notes - Microsoft.Web.Helpers.txt" />
     <Content Include="stylesheets\img\circles.png" />
     <Content Include="stylesheets\img\circles.txt" />
     <Content Include="stylesheets\img\fancy_deboss.png" />
@@ -121,6 +130,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="files\20101224_FSharp\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="files\20101017_mvvm_and_ddd\caliburn\caliburn.zip" />
@@ -145,6 +155,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\Speakers\Data\chaliy.yaml" />
+    <Content Include="Views\Speakers\Web.config" />
+    <None Include="App\Speakers\Data\beletsky.yaml" />
+    <None Include="App\Speakers\Data\kalinets.yaml" />
+    <None Include="App\Speakers\Data\tamaschuk.yaml" />
+    <Content Include="Views\Speakers\Details.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

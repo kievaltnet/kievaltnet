@@ -1,21 +1,44 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using Newtonsoft.Json;
+using System.Yaml.Serialization;
 
 namespace WebSite.App.Speakers
 {
-    public class SpeakerProvider
+    public class SpeakerProvider : IEnumerable<Speaker>
     {
-        private readonly List<Speaker> _speakers;
+        private readonly List<Speaker> _speakers = new List<Speaker>();
 
-        public SpeakerProvider(string source)
+        public SpeakerProvider(DirectoryInfo dataFolder)
         {
-            _speakers = JsonConvert.DeserializeObject<List<Speaker>>(source);
+            var serizlier = new YamlSerializer();
+            var profiles = dataFolder.GetFiles("*.yaml");
+            foreach (var profileFile in profiles)
+            {                
+                using (var reader = profileFile.OpenRead())
+                {
+                    var speaker = (Speaker)serizlier.Deserialize(reader, typeof(Speaker))[0];
+                    speaker.Id = profileFile.Name.Replace(profileFile.Extension, ""); // <- Looks ugly
+                    _speakers.Add(speaker);
+                }
+            }
+            _speakers.Sort((x, y) => x.FullName.CompareTo(y.FullName));
+        }
+        
+        public IEnumerator<Speaker> GetEnumerator()
+        {
+            return _speakers.GetEnumerator();
         }
 
-        public IQueryable<Speaker> Query()
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
-            return _speakers.AsQueryable();
+            return this.GetEnumerator();
+        }
+        
+        public Speaker Get(string id)
+        {
+            return this.First(x => x.Id == id);
         }
     }
 }

@@ -86,6 +86,7 @@
     <Compile Include="Controllers\Speakers\SpeakerDetails.cs" />
     <Compile Include="Controllers\Speakers\SpeakersController.cs" />
     <Compile Include="Controllers\Speakers\SpeakersIndex.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -22,9 +22,10 @@ namespace WebSite.Extensions
         {
             using (var crypter = System.Security.Cryptography.MD5.Create())
             {
-                var encodedBytes = crypter.ComputeHash(Encoding.Default.GetBytes(input));
-                return BitConverter.ToString(encodedBytes);
-            }
+                var hash = crypter.ComputeHash(Encoding.Default.GetBytes(input));
+                // To HEX
+                return String.Join("", hash.Select(byt => byt.ToString("x2")));
+            }            
         }
     }
 }

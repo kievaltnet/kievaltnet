@@ -20,5 +20,8 @@
 </div>
 <ul class="breadcrumb">
 	<li><a href="@Model.Speaker.MainProfileURL">Home</a> <span class="divider">|</span></li>
+    @if (@Model.Speaker.Twitter.IsDefined()){
+    <li><a href="http://twitter.com/@Model.Speaker.Twitter" class="twitter">@Model.Speaker.Twitter</a> <span class="divider">|</span></li>
+    }
 	<li><a href="mailto:@Model.Speaker.Email">E-mail</a></li>
 </ul>

@@ -10,6 +10,8 @@
         public string Email { get; set; }
         public string MainProfileURL { get; set; }
         public string Avatar { get; set; }
+
+        public Speach[] Speaches { get; set; }
     }
 
     public class Speach 

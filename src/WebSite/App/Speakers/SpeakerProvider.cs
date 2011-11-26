@@ -15,13 +15,23 @@ namespace WebSite.App.Speakers
             var serializer = new YamlSerializer();
             var profiles = dataFolder.GetFiles("*.yaml");
             foreach (var profileFile in profiles)
-            {                
-                using (var reader = profileFile.OpenRead())
+            {
+                Speaker speaker;
+                try
                 {
-                    var speaker = (Speaker)serializer.Deserialize(reader, typeof(Speaker))[0];
-                    speaker.Id = Path.GetFileNameWithoutExtension(profileFile.Name);
-                    _speakers.Add(speaker);
+                    using (var reader = profileFile.OpenRead())
+                    {
+                        speaker = (Speaker)serializer.Deserialize(reader, typeof(Speaker))[0];                        
+                    }
                 }
+                catch (Exception ex)
+                {
+                    speaker = new Speaker();
+                    speaker.FullName = "Data Error";
+                    speaker.Bio = ex.Message;
+                }
+                speaker.Id = Path.GetFileNameWithoutExtension(profileFile.Name);
+                _speakers.Add(speaker);
             }
             _speakers.Sort((x, y) => x.FullName.CompareTo(y.FullName));
         }

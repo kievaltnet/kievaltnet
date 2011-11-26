@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using WebSite.App.Speakers;
@@ -7,8 +9,13 @@ namespace WebSite
 {
     public class KievAltNetApp : System.Web.HttpApplication
     {
-
-        public static SpeakerProvider Speakers;
+        private static readonly Lazy<SpeakerProvider> _lazyProvider 
+            = new Lazy<SpeakerProvider>(() => 
+            {
+                var speakersFolder = new DirectoryInfo(HttpContext.Current.Server.MapPath("~/App/Speakers/Data/"));
+                return new SpeakerProvider(speakersFolder);
+            }, System.Threading.LazyThreadSafetyMode.ExecutionAndPublication);
+        public static SpeakerProvider Speakers { get { return _lazyProvider.Value; } }
 
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
@@ -41,8 +48,7 @@ namespace WebSite
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
-            var speakersFolder = new DirectoryInfo(Server.MapPath("~/App/Speakers/Data/"));
-            Speakers = new SpeakerProvider(speakersFolder);
+            
         }
     }
 }

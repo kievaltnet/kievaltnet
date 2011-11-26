@@ -165,6 +165,9 @@
     <Content Include="App\Speakers\Data\tamaschuk.yaml" />
     <Content Include="Views\Speakers\Details.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App\Speakers\Data\pasko.yaml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

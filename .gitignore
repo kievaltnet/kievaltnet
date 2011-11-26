@@ -8,3 +8,5 @@ _ReSharper.*
 *.resharper.user
 *.resharper
 ~$*
+KievAltNet.VisualState.xml
+TestResult.xml

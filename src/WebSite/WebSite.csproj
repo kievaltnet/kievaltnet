@@ -166,7 +166,7 @@
     <Content Include="Views\Speakers\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App\Speakers\Data\pasko.yaml" />
+    <Content Include="App\Speakers\Data\pasko.yaml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

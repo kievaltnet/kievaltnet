@@ -118,6 +118,13 @@
     <Content Include="stylesheets\img\circles.txt" />
     <Content Include="stylesheets\img\fancy_deboss.png" />
     <Content Include="stylesheets\img\fancy_deboss.txt" />
+    <Content Include="stylesheets\services\facebook.png" />
+    <Content Include="stylesheets\services\ics.png" />
+    <Content Include="stylesheets\services\kievaltnet.png" />
+    <Content Include="stylesheets\services\linkedin.png" />
+    <Content Include="stylesheets\services\rss.png" />
+    <Content Include="stylesheets\services\skype.png" />
+    <Content Include="stylesheets\services\twitter.png" />
     <Content Include="stylesheets\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

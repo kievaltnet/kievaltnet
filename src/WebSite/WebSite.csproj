@@ -168,6 +168,12 @@
   <ItemGroup>
     <Content Include="App\Speakers\Data\pasko.yaml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\korneliuk.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\andriybuday.yaml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

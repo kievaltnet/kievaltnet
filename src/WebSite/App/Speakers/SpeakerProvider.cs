@@ -43,7 +43,7 @@ namespace WebSite.App.Speakers
 
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
-            return this.GetEnumerator();
+            return GetEnumerator();
         }
         
         public Speaker Get(string id)

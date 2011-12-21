@@ -119,6 +119,13 @@
     <Content Include="stylesheets\img\circles.txt" />
     <Content Include="stylesheets\img\fancy_deboss.png" />
     <Content Include="stylesheets\img\fancy_deboss.txt" />
+    <Content Include="stylesheets\services\facebook.png" />
+    <Content Include="stylesheets\services\ics.png" />
+    <Content Include="stylesheets\services\kievaltnet.png" />
+    <Content Include="stylesheets\services\linkedin.png" />
+    <Content Include="stylesheets\services\rss.png" />
+    <Content Include="stylesheets\services\skype.png" />
+    <Content Include="stylesheets\services\twitter.png" />
     <Content Include="stylesheets\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -165,6 +172,21 @@
     <Content Include="App\Speakers\Data\kalinets.yaml" />
     <Content Include="App\Speakers\Data\tamaschuk.yaml" />
     <Content Include="Views\Speakers\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\pasko.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\korneliuk.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\andriybuday.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\chumak.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\gomolko.yaml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

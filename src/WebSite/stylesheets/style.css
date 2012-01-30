@@ -9,7 +9,7 @@ a:hover{color:#333}
 h1,h2,h3,h4,h5,h6{color:#111;font-weight:normal}
 p{margin:0 0 1.5em}
 ul,ol{margin:0 0 1.5em;padding-left:2.5em}
-blockquote{border-left:2px solid #888;color:#888;margin:0 1em 1.5em;padding:0 1em}
+blockquote{border-left:2px solid #424242;color:#424242;margin:0 1em 1.5em;padding:0 1em}
 
 /* HEADER */
 #header h1{margin:0 0 1em;padding:0;}

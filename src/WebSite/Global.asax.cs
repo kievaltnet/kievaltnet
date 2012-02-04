@@ -28,14 +28,14 @@ namespace WebSite
             
             routes.MapRoute(
                 "Default", // Route name
-                "{controller}/", // URL with parameters
+                "{controller}/{action}/", // URL with parameters
                 new { controller = "Home", action = "Index" } // Parameter defaults
             );
 
             routes.MapRoute(
                 "Details", // Route name
                 "{controller}/{id}/", // URL with parameters
-                new { controller = "Home", action = "Details" } // Parameter defaults
+                new { action = "Details" } // Parameter defaults
             );
 
 

@@ -27,8 +27,8 @@ namespace WebSite
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             
             routes.MapRoute(
-                "Home", // Route name
-                "Home/{action}/", // URL with parameters
+                "Default", // Route name
+                "{controller}/{action}/", // URL with parameters
                 new { controller = "Home", action = "Index" } // Parameter defaults
             );
 

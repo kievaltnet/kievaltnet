@@ -7,7 +7,7 @@ using WebSite.App.Speakers;
 
 namespace WebSite
 {
-    public class KievAltNetApp : System.Web.HttpApplication
+    public class KievAltNetApp : HttpApplication
     {
         private static readonly Lazy<SpeakerProvider> _lazyProvider 
             = new Lazy<SpeakerProvider>(() => 
@@ -25,20 +25,24 @@ namespace WebSite
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-            
+           
             routes.MapRoute(
-                "Default", // Route name
-                "{controller}/{action}/", // URL with parameters
-                new { controller = "Home", action = "Index" } // Parameter defaults
+                "Speakers",
+                "Speakers/{id}/",
+                new { controller = "Speakers", action = "Details" }
             );
 
             routes.MapRoute(
-                "Details", // Route name
-                "{controller}/{id}/", // URL with parameters
-                new { action = "Details" } // Parameter defaults
+                "Home",
+                "",
+                new { controller = "Home", action = "Index" }
             );
 
-
+            routes.MapRoute(
+                "Default",
+                "{controller}/{action}/{id}/",
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
         }
 
         protected void Application_Start()

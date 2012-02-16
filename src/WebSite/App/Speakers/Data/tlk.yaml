@@ -1,13 +1,16 @@
 ﻿FullName: Anatoliy 'TLK' Kolesnick
 Twitter: _TLK
-ShortAbout: .NET developer and father
+Facebook: Anatoliy.TLK.Kolesnick
+Bitbucket: _TLK
+GitHub: kolesnick
+ShortAbout: I am cool, therefore I am!
 Bio: |
-    .NET developer and father
+    .NET developer
 
-# Email: tlk@gmail.com
-MainProfileURL: http://anatoliy.kolesnick.com/
+# Email: anatoliy@kolesnick.com
+MainProfileURL: http://anatoliy.kolesnick.com
 
-#Speaches:
-#    - Title: NoSQL, чем проще - тем лучше!
-#      AnonceLink: http://blog.kievalt.net/post/10212289741/nosql-event
-#	  MaterialsLink: http://blog.kievalt.net/post/11314053744/nosql-doc-report
+Speaches:
+    - Title: Continuous Testing
+      AnonceLink: http://blog.kievalt.net
+	  MaterialsLink: http://www.slideshare.net/_TLK/continuous-testing

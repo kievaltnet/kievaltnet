@@ -20,7 +20,9 @@
                 @if (@speaker.Twitter.IsDefined()){
                 <li><a href="http://twitter.com/@speaker.Twitter" class="twitter">@speaker.Twitter</a> <span class="divider">|</span></li>
                 }
+                @if (@Model.Speaker.Email.IsDefined()){
                 <li><a href="mailto:@speaker.Email">E-mail</a></li>
+                }
 		    </ul>
 		</div>
 	</div>

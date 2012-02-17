@@ -18,7 +18,7 @@
     public class Speach 
     {
         public string Title { get; set; }
-        public string AnonceLink { get; set; }
+        public string AnnounceLink { get; set; }
         public string MaterialsLink { get; set; }
     }
 }

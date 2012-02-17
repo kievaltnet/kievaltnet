@@ -16,7 +16,28 @@ namespace WebSite.Views.Speakers
             {
                 return speaker.Avatar;
             }
-            return speaker.Email.ToGravatarLink(size);
+            return speaker.GetRealEmail().ToGravatarLink(size);
+        }
+
+        public static string GetRealEmail(this Speaker speaker)
+        {
+            return IsEmailSpamProtected(speaker.Email) 
+                ? RestoreSpamProtectedEmail(speaker.Email)
+                : speaker.Email;
+        }
+
+        private static bool IsEmailSpamProtected(string email)
+        {
+            return email != null && email.Contains("#");
+        }
+
+        private static string RestoreSpamProtectedEmail(string email)
+        {
+            char[] charArray = email.ToCharArray();
+
+            Array.Reverse(charArray);
+
+            return new string(charArray).Replace('#', '@');
         }
     }
 }

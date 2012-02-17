@@ -10,10 +10,10 @@ MainProfileURL: http://korneliuk.blogspot.com/
 
 Speaches:
     - Title: Don’t overcomplicate. Introduction to Micro ORMs in .NET
-      AnonceLink: http://blog.kievalt.net/post/13156420687/orm-event
+      AnnounceLink: http://blog.kievalt.net/post/13156420687/orm-event
     - Title: Битва CI - Jenkins (aka Hudson)
-      AnonceLink: http://blog.kievalt.net/post/5390606925/ci-event
+      AnnounceLink: http://blog.kievalt.net/post/5390606925/ci-event
 #     MaterialsLink: http://blog.kievalt.net/post/5861638044/report-ci-event
     - Title: Caliburn.Micro
-      AnonceLink: http://blog.kievalt.net/post/1047917205/ddd-and-mvvm-event
+      AnnounceLink: http://blog.kievalt.net/post/1047917205/ddd-and-mvvm-event
 #     MaterialsLink: http://blog.kievalt.net/post/1156547533/report-ddd-and-mvvm-event

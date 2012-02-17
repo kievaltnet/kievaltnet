@@ -5,12 +5,18 @@ Twitter: _TLK
 # GitHub: kolesnick
 ShortAbout: I am cool, therefore I am!
 Bio: |
-    .NET developer
+    В течение последних семи лет работает исключительно в продуктовых компаниях, 
+    в частности, более трёх лет работал вендором компании [Microsoft](http://microsoft.com). 
+    В течение своей карьеры успел побывать на различных позициях вплоть до CTO. 
+    С недавних пор является активным докладчиком в юзергруппах [Uneta](http://uneta.ua), на базе [Ciklum](http://ciklum.net), 
+    [Agile Basecamp](http://agilebasecamp.org), а также уже и [Kiev ALT.NET](http://kievalt.net). 
+    Один из соавторов подкаста [DotBand](http://dotband.com). 
+    В текущий момент занимает позицию senior разработчика в компании [SPS Commerce](http://spscommerce.com).
 
 # Email: anatoliy@kolesnick.com
 MainProfileURL: http://anatoliy.kolesnick.com
 
 Speaches:
     - Title: Continuous Testing
-      AnonceLink: http://blog.kievalt.net
-#	  MaterialsLink: http://www.slideshare.net/_TLK/continuous-testing
+      AnnounceLink: http://blog.kievalt.net
+#      MaterialsLink: http://www.slideshare.net/_TLK/continuous-testing

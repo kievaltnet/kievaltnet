@@ -54,7 +54,7 @@ namespace Tests.App.Speackers
         {
             _provider.First().Speaches.Should().Count.Exactly(2);
             _provider.First().Speaches[0].Title.Should().Equal("Super Speach");
-            _provider.First().Speaches[0].AnonceLink.Should().Equal("http://example.com/1-event");
+            _provider.First().Speaches[0].AnnounceLink.Should().Equal("http://example.com/1-event");
             //_provider.First().Speaches[0].MaterialsLink.Should().Equal("http://example.com/1-event-materials");
         }
 

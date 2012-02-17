@@ -7,8 +7,8 @@ Email: example@example.com
 MainProfileURL: http://example.com
 Speaches:
     - Title: Super Speach
-      AnonceLink: http://example.com/1-event
+      AnnounceLink: http://example.com/1-event
 #	  MaterialsLink: http://example.com/1-event-materials
     - Title: Super Speach #2
-      AnonceLink: http://example.com/2-event
+      AnnounceLink: http://example.com/2-event
 #	  MaterialsLink: http://example.com/2-event-materials

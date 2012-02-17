@@ -167,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\Speakers\Data\chaliy.yaml" />
+    <Content Include="App\Speakers\Data\kartsev.yaml" />
     <Content Include="Views\Speakers\Web.config" />
     <Content Include="App\Speakers\Data\beletsky.yaml" />
     <Content Include="App\Speakers\Data\kalinets.yaml" />
@@ -187,6 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\Speakers\Data\gomolko.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\tlk.yaml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

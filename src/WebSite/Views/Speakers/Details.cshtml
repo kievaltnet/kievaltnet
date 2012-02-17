@@ -23,7 +23,7 @@
 <h3>Speaches</h3>
 <ul>
 @foreach(var speach in @Model.Speaker.Speaches){
-    <li><a href="@speach.AnonceLink">@speach.Title</a></li>    
+    <li><a href="@speach.AnnounceLink">@speach.Title</a></li>    
 }
 </ul>
 }
@@ -33,5 +33,7 @@
     @if (@Model.Speaker.Twitter.IsDefined()){
     <li><a href="http://twitter.com/@Model.Speaker.Twitter" class="twitter">@Model.Speaker.Twitter</a> <span class="divider">|</span></li>
     }
-	<li><a href="mailto:@Model.Speaker.Email">E-mail</a></li>
+    @if (@Model.Speaker.Email.IsDefined()){
+    <li><a class="email" href="mailto:@Model.Speaker.Email">E-mail</a></li>
+    }
 </ul>

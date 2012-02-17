@@ -18,7 +18,7 @@
         <BuildPackage Condition="$(BuildPackage) == ''">false</BuildPackage>
 
         <!-- Commands -->
-        <RestoreCommand>"$(NuGetExePath)" install "$(PackagesConfig)" -source $(PackageSources) -o "$(PackagesDir.Trim('\\'))"</RestoreCommand>
+        <RestoreCommand>"$(NuGetExePath)" install "$(PackagesConfig)" -source $(PackageSources) -o "$(PackagesDir)"</RestoreCommand>
         <BuildCommand>"$(NuGetExePath)" pack "$(ProjectPath)" -p Configuration=$(Configuration) -o "$(PackageOutputDir)" -symbols</BuildCommand>
 
         <!-- Make the build depend on restore packages -->

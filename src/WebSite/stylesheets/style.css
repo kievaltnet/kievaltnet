@@ -2,7 +2,7 @@
   Simplification Tumblr Theme v1.1
   by Bill Israel [http://cubicle17.com/]
 */
-html{font-size:87.5%;}
+html{font-size:120.0%;}
 body{background:#fff;border-top:7px solid #76a34c;color:#111;margin:0;padding:3em 0 0; background-image: url(img/fancy_deboss.png);}
 a,a:visited,a:active{color:#76a34c}
 a:hover{color:#333}
@@ -167,4 +167,8 @@ a.kievaltnet{
 
 li{
 	color: #111;
+}
+
+#twitter_update_list li{
+	color: #888;
 }

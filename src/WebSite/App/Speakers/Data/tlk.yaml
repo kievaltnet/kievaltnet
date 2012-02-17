@@ -1,8 +1,8 @@
 ﻿FullName: Anatoliy 'TLK' Kolesnick
 Twitter: _TLK
-Facebook: Anatoliy.TLK.Kolesnick
-Bitbucket: _TLK
-GitHub: kolesnick
+# Facebook: Anatoliy.TLK.Kolesnick
+# Bitbucket: _TLK
+# GitHub: kolesnick
 ShortAbout: I am cool, therefore I am!
 Bio: |
     В течение последних семи лет работает исключительно в продуктовых компаниях, 
@@ -19,4 +19,4 @@ MainProfileURL: http://anatoliy.kolesnick.com
 Speaches:
     - Title: Continuous Testing
       AnonceLink: http://blog.kievalt.net
-      MaterialsLink: http://www.slideshare.net/_TLK/continuous-testing
+#      MaterialsLink: http://www.slideshare.net/_TLK/continuous-testing

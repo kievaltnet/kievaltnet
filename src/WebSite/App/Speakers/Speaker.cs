@@ -11,6 +11,9 @@
         public string Twitter { get; set; }
         public string MainProfileURL { get; set; }
         public string Avatar { get; set; }
+        public string GitHub { get; set; }
+        public string Bitbucket { get; set; }
+        public string RSS { get; set; }
 
         public Speach[] Speaches { get; set; }
     }

@@ -23,6 +23,10 @@
     <OldToolsVersion>4.0</OldToolsVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\kievaltnet\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,7 +103,11 @@
     <Compile Include="Views\MarkdownExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BingSiteAuth.xml" />
+    <Content Include="App\Speakers\Data\bobrov.yaml" />
+    <Content Include="App\Speakers\Data\tailhook.yaml" />
+    <Content Include="BingSiteAuth.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="blank.html" />
     <Content Include="favicon.ico" />
     <Content Include="files\20101029_nupack\event-logo.png" />

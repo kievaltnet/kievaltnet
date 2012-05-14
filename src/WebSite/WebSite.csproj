@@ -202,6 +202,9 @@
   <ItemGroup>
     <Content Include="App\Speakers\Data\tlk.yaml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Speakers\Data\steplyakov.yaml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

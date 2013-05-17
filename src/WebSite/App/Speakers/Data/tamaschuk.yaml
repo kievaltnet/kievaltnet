@@ -1,4 +1,4 @@
-﻿FullName: Igor Tamaschuk
+﻿FullName: Igor Tamashchuk
 Twitter: legigor
 ShortAbout: .NET developer and father
 Bio: |
@@ -8,6 +8,15 @@ Email: legigor@gmail.com
 MainProfileURL: http://igor.quatrocode.com/
 
 Speaches:
+
+    - Title: CQRS - теория и практика
+      AnnounceLink: http://blog.kievalt.net/post/823574167/ddd-and-cqrs-event
+      MaterialsLink: http://blog.kievalt.net/post/884617100/report-ddd-and-cqrs-event
+
+    - Title: Package Management
+      AnnounceLink: http://blog.kievalt.net/post/1373357793/nupack-event
+      MaterialsLink: http://blog.kievalt.net/post/1498058546/report-nuget-event
+
     - Title: NoSQL, чем проще - тем лучше!
       AnnounceLink: http://blog.kievalt.net/post/10212289741/nosql-event
-#	  MaterialsLink: http://blog.kievalt.net/post/11314053744/nosql-doc-report
+	  MaterialsLink: http://blog.kievalt.net/post/11314053744/nosql-doc-report

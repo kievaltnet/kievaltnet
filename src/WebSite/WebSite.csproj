@@ -109,9 +109,14 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="blank.html" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="files\20101029_nupack\event-logo.png" />
     <Content Include="files\20110225_websharper\event-logo.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="googled02d50cb02ea9f50.html" />
     <Content Include="lineofthought_claim_5e22d4d5818c2bd2ff91f2ec95e6b917.html" />
@@ -125,6 +130,14 @@
     <Content Include="images\services\twitter.png" />
     <Content Include="images\services\facebook.png" />
     <Content Include="kievaltnet.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
     <Content Include="stylesheets\img\circles.png" />
     <Content Include="stylesheets\img\circles.txt" />
     <Content Include="stylesheets\img\fancy_deboss.png" />
@@ -146,6 +159,7 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Scripts\jquery-1.9.0.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
